@@ -107,3 +107,13 @@ body, main {
     background-color: var(--white);
     gap: var(--spacing-400);
 }
+
+.recipe-title {
+    color: var(--stone-900);
+    font-size: var(--spacing-400);
+    margin-bottom: var(--spacing-300);
+}
+
+.recipe-description {
+    color: var(--stone-600);
+}
