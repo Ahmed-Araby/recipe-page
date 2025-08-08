@@ -92,3 +92,8 @@ body, main {
 
 
 /* Mobile Styles */
+.meal-img {
+    width: 100%;
+    display: block;
+}
+}
