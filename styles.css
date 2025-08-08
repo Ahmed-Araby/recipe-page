@@ -92,8 +92,18 @@ body, main {
 
 
 /* Mobile Styles */
+.flex-box {
+    display: flex;
+    flex-direction: column;
+}
+
 .meal-img {
     width: 100%;
     display: block;
 }
+
+.recipe {
+    padding: var(--spacing-500) var(--spacing-400) var(--spacing-500) var(--spacing-400);
+    background-color: var(--white);
+    gap: var(--spacing-400);
 }
