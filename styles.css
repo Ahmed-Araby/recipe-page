@@ -1,0 +1,80 @@
+:root {
+    /* colors */
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+
+    --brown-800: #854632;
+
+    --white: #FFFFFF;
+
+    /* spacing */
+    --spacing-1600: 8rem; /* 128px */
+    --spacing-600: 3rem; /* 48px */
+    --spacing-500: 2.5rem; /* 40px */
+    --spacing-400: 2rem; /* 32px */
+    --spacing-300: 1.5rem; /* 24px */
+    --spacing-200: 1rem; /* 16px */
+    --spacing-150: 0.75rem; /* 12px */
+    --spacing-100: 0.5rem; /* 8px */
+
+    /* responsive design breakpoints */
+    --desktop-viewport-min-width: 1440px;
+    --tablet-viewport-min-width: 768px;
+    --mobile-viewport-min-width: 375px;
+}
+
+/* custom fonts */
+@font-face {
+    font-family: "Young Serif";
+    src: url("../fonts/YoungSerif-Regular.ttf");
+}
+
+@font-face {
+    font-family: Outfit;
+    src: url("../fonts/Outfit-VariableFont_wght.ttf");
+    font-weight: 400 700;
+}
+
+/* typography */
+.text-preset-1, .text-preset-2, .text-preset-3, .text-preset-4, .text-preset-4-bold {
+    letter-spacing: 0px;
+}
+.text-preset-1, .text-preset-2, .text-preset-3 {
+    line-height: 100%;
+}
+.text-preset-4, .text-preset-4-bold {
+    line-height: 150%;
+}
+
+.text-preset-1 {
+    font-family: "Young Serif", serif;
+    font-size: 2.5rem; /* 40px */
+}
+
+.text-preset-2 {
+    font-family: "Young Serif", serif;
+    font-size: 1.75rem; /* 28px */
+}
+
+.text-preset-3 {
+    font-family: Outfit, serif;
+    font-weight: 600;
+    font-size: 1.25rem; /* 20px */
+}
+
+.text-preset-4 {
+    font-family: Outfit, serif;
+    font-weight: 400;
+    font-size: 1rem; /* 16px */
+}
+
+.text-preset-4-bold {
+    font-family: Outfit, serif;
+    font-weight: 700;
+    font-size: 1rem; /* 16px */
+}
