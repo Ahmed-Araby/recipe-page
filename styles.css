@@ -121,10 +121,14 @@ body, main {
 /* preparation time section */
 .recipe-prep-time {
     background-color: var(--rose-50);
-    
+
     padding: var(--spacing-300);
     
     border-radius: var(--spacing-150);
 
     gap: var(--spacing-200);
+}
+
+.recipe-prep-time > .title {
+    color: var(--rose-800);
 }
