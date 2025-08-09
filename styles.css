@@ -134,13 +134,20 @@ body, main {
 }
 .recipe-prep-time ul {
     list-style-position: inside;
+    gap: var(--spacing-100);
 }
-.recipe-prep-time label, span {
+
+.recipe-prep-time li {
+    display: flex;
+    gap: var(--spacing-200);
+}
+
 .recipe-prep-time li::before {
     content: ".";
     color: var(--rose-800);
     font-size: 3rem; /* 24px */
     line-height: 0;
 }
+.recipe-prep-time .item{
     color: var(--stone-600);
 }
