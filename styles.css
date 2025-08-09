@@ -132,3 +132,9 @@ body, main {
 .recipe-prep-time > .title {
     color: var(--rose-800);
 }
+.recipe-prep-time ul {
+    list-style-position: inside;
+}
+.recipe-prep-time label, span {
+    color: var(--stone-600);
+}
