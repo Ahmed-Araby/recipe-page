@@ -140,16 +140,14 @@ body, main {
 .recipe-prep-time li {
     display: flex;
     gap: var(--spacing-200);
+    align-items: center;
 }
 
 .recipe-prep-time li::before {
-    content: ".";
+    content: "•";
     width: 1rem; /* 16px */
     
     color: var(--rose-800);
-    font-size: 3rem; /* 24px */
-    line-height: 0;
-
     margin-left: var(--spacing-100);
 
 }
