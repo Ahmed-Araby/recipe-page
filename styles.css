@@ -99,6 +99,7 @@ body {
 .meal-img {
     width: 100%;
     display: block;
+    height: 10.6875rem; /* 171px */
 }
 
 .recipe {
