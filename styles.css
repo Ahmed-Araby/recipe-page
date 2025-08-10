@@ -88,7 +88,9 @@
 body {
     background-color: var(--stone-100);
 }
-
+main {
+    align-items: center;
+}
 
 /* Mobile Styles */
 .flex-box {
@@ -272,6 +274,7 @@ body {
         /* 1.75rem = 28px */
         margin: 0 1.75rem 0 1.75rem; 
         border-radius: var(--spacing-300);
+        max-width: 57rem; /* 912px */
     }
     .meal-img {
         border-radius: var(--spacing-150);
