@@ -112,7 +112,6 @@ main {
 
 .recipe-title {
     color: var(--stone-900);
-    font-size: var(--spacing-400);
     margin-bottom: var(--spacing-300);
 }
 
