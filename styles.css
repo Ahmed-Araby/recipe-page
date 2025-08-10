@@ -227,3 +227,34 @@ body, main {
 .recipe-instructions .item {
     color: var(--stone-600);
 }
+
+
+/* recipe nutrition */
+
+.recipe-nutrition {
+    gap: var(--spacing-300);
+}
+.recipe-nutrition > .title {
+    color: var(--brown-800);
+}
+.recipe-nutrition > .description {
+    color: var(--stone-600);
+}
+.nutrition-facts {
+    gap: var(--spacing-150);
+}
+.nutrition-facts > .fact {
+    display: flex;
+    gap: var(--spacing-200);
+
+    padding: 0 var(--spacing-400) 0 var(--spacing-400);
+}
+.nutrition-facts > .fact > * {
+    flex: 1 1 50%;
+}
+.nutrition-facts > .fact > label {
+    color: var(--stone-600);
+}
+.nutrition-facts > .fact > span {
+    color: var(--brown-800);
+}
