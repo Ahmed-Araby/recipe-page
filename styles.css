@@ -213,7 +213,7 @@ body, main {
 .recipe-instructions li::before {
     content:counter(index) ".";
 
-    flex: 1 0 1rem; /* 16px */
+    flex: 0 0 1rem; /* 16px */
 
     color: var(--brown-800);
 
