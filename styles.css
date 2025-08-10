@@ -199,21 +199,22 @@ main {
 .recipe-instructions > .title {
     color: var(--brown-800);
 }
-.recipe-instructions > ol {
+.instructions-list {
     gap: var(--spacing-100);
     counter-reset: index 0;
 }
-
-.recipe-instructions li {
+.instruction {
     display: flex;
     gap: var(--spacing-200);
     align-items: start;
 
     padding-left: var(--spacing-100); /* 8px */
 
+    color: var(--stone-600);
+
     counter-increment: index 1;
 }
-.recipe-instructions li::before {
+.instruction::before {
     content:counter(index) ".";
 
     flex: 0 0 1rem; /* 16px */
@@ -227,10 +228,6 @@ main {
     letter-spacing: 0px;
     line-height: 150%;
 }
-.instruction {
-    color: var(--stone-600);
-}
-
 
 /* recipe nutrition */
 
