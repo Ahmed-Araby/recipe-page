@@ -8,10 +8,10 @@
 .recipe-nutrition > .description {
     color: var(--stone-600);
 }
-.nutrition-facts {
+.nutrition-facts-container {
     gap: var(--spacing-150);
 }
-.nutrition-facts > .fact {
+.nutrition-fact {
     display: flex;
     gap: var(--spacing-200);
 
