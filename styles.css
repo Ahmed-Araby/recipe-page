@@ -269,6 +269,8 @@ body {
         background-color: var(--white);
         gap: var(--spacing-500);
         padding: var(--spacing-500);
+        /* 1.75rem = 28px */
+        margin: 0 1.75rem 0 1.75rem; 
         border-radius: var(--spacing-300);
     }
 }
