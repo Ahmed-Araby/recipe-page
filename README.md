@@ -17,10 +17,13 @@ The Recipe Page challenge is about creating a response page that fill the screen
 
 ### Screenshot
 #### Desktop viewport
+![recipe-page-in-desktop-viewport](https://github.com/Ahmed-Araby/recipe-page/blob/main/documentation/gifs/recipe-page-in-desktop-viewport.gif)
 
 #### Tablet viewport
+![recipe-page-in-tablet-viewport](https://github.com/Ahmed-Araby/recipe-page/blob/main/documentation/gifs/recipe-page-in-tablet-viewport(w%20768%2C%20H%201024).gif)
 
 ### Mobile viewport
+![recipe-page-in-mobile-viewport](https://github.com/Ahmed-Araby/recipe-page/blob/main/documentation/gifs/recipe-page-in-mobile-viewport(w%20375%2C%20H%20667).gif)
 
 ### Links
 
@@ -43,12 +46,12 @@ The Recipe Page challenge is about creating a response page that fill the screen
 
 
 ### What I learned
-- li::marker pseudo element is refering to the box around the list style (bullet, number, etc...)
-- li:before is also refering to list item style (bullet point, number, etc..) and it has more freedom in styles over the ::marker pseudo element.
-- we can define sequence to be used as list item style (number, alpheat, etc..) using counter() css function.
-- list item properties controlling the list item marker (bullet point, numbers, etc..) {list-style-position, list-style-type, ....}
-- by default the list item marker (bullet point, numbers, etc..) are positioned outside the list item box and they can be configured to be rendered inside the list item box.
-- the list item marker (bullet point, numbers, etc..)  are not part of the list item box flow whenb they are positioned outside the list item.
+- li::marker pseudo element is refering to the box around the list marker (bullet point, number, etc...)
+- li::before pseudo element is also refering to the list item marker (bullet point, number, etc..) and it has more freedom in styles over the ::marker pseudo element.
+- we can set the sequence used for item marker (number, alpheat, etc..) of an ordered list using counter() css function. the counter need to be defined first.
+- list item properties controlling the list item marker (bullet point, numbers, etc..) are {list-style-position, list-style-type, ....}
+- by default the list item marker (bullet point, numbers, etc..) is positioned outside the list item box and it can be configured to be rendered inside the list item box.
+- the list item marker (bullet point, numbers, etc..)  is not part of the list item box flow when it is positioned outside the list item.
 - the list item element has display property set to list-item and any element with display property set to list-item will get a marker pseudo element by default.
-- the marker pseudo element vanish when display of the list item is changed for example set to flex.
-- when a child element overflow from its container element, the padding-bottom won't have visual effect.
+- the marker pseudo element vanish when display property of the list item is changed for example when set to flex.
+- when a child element overflow from its container element the padding-bottom won't have visual effect.
