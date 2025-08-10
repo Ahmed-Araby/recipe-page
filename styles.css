@@ -118,6 +118,12 @@ body, main {
     color: var(--stone-600);
 }
 
+.h-line {
+    background-color: var(--stone-150);
+    height: 0.0625rem; /* 1px */
+
+}
+
 /* preparation time section */
 .recipe-prep-time {
     background-color: var(--rose-50);
