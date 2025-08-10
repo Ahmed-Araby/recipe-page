@@ -281,3 +281,12 @@ body {
         padding: 0;
     }
 }
+
+/* desktop viewport breakpoint : 1440px */
+@media (min-width: 90rem) { 
+    /* [TODO] question, should I reuse the styles defined in the media query for the tablet viewport or should I redfine them again */
+    .recipe-page {
+        /* 19rem = 304px */
+        margin: 0 19rem 0 19rem; 
+    }
+}
