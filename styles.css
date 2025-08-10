@@ -255,7 +255,7 @@ main {
 .nutrition-facts > .fact > * {
     flex: 1 1 50%;
 }
-.nutrition-facts > .fact > label {
+.nutrition-facts > .fact > b {
     color: var(--stone-600);
 }
 .nutrition-facts > .fact > span {
