@@ -144,21 +144,19 @@ main {
     list-style-position: inside;
     gap: var(--spacing-100);
 }
-.recipe-prep-time li {
+.prep-time-item {
     display: flex;
     gap: var(--spacing-200);
     align-items: center;
+    color: var(--stone-600);
 }
-.recipe-prep-time li::before {
+.prep-time-item::before {
     content: "•";
     width: 1rem; /* 16px */
     
     color: var(--rose-800);
     margin-left: var(--spacing-100);
 
-}
-.prep-time-item {
-    color: var(--stone-600);
 }
 
 /* recipe ingredients */
