@@ -53,11 +53,13 @@
 
 .text-preset-1 {
     font-family: "Young Serif", serif;
+    font-weight: 400;
     font-size: 2.5rem; /* 40px */
 }
 
 .text-preset-2 {
     font-family: "Young Serif", serif;
+    font-weight: 400;
     font-size: 1.75rem; /* 28px */
 }
 
