@@ -128,7 +128,6 @@ body, main {
 
     gap: var(--spacing-200);
 }
-
 .recipe-prep-time > .title {
     color: var(--rose-800);
 }
@@ -136,13 +135,11 @@ body, main {
     list-style-position: inside;
     gap: var(--spacing-100);
 }
-
 .recipe-prep-time li {
     display: flex;
     gap: var(--spacing-200);
     align-items: center;
 }
-
 .recipe-prep-time li::before {
     content: "•";
     width: 1rem; /* 16px */
@@ -152,5 +149,32 @@ body, main {
 
 }
 .recipe-prep-time .item {
+    color: var(--stone-600);
+}
+
+/* recipe ingredients */
+.recipe-ingredients {
+    gap: var(--spacing-300);
+}
+.recipe-ingredients > .title {
+    color: var(--brown-800);
+}
+.recipe-ingredients ul {
+    gap: var(--spacing-100);
+}
+.recipe-ingredients li {
+    display: flex;
+    gap: var(--spacing-200);
+    color: var(--stone-600);
+}
+.recipe-ingredients li::before {
+    content: "•";
+    flex-basis: 1rem; /* 16px */
+    flex-shrink: 0;
+    color: var(--brown-800);
+    margin-left: var(--spacing-100);
+    font-family: initial;
+}
+.recipe-ingredients .item {
     color: var(--stone-600);
 }
