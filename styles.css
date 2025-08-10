@@ -158,7 +158,9 @@ main {
     
     color: var(--rose-800);
     margin-left: var(--spacing-100);
-
+    
+    font: initial;
+    letter-spacing: initial;
 }
 
 /* recipe ingredients */
@@ -182,7 +184,9 @@ main {
     flex-shrink: 0;
     color: var(--brown-800);
     margin-left: var(--spacing-100);
-    font-family: initial;
+
+    font: initial;
+    letter-spacing: initial;
 }
 
 
