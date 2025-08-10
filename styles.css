@@ -178,3 +178,15 @@ body, main {
 .recipe-ingredients .item {
     color: var(--stone-600);
 }
+
+
+
+/* recipe instructions */
+
+.recipe-instructions {
+    gap: var(--spacing-300);
+}
+
+.recipe-instructions > .title {
+    color: var(--brown-800);
+}
