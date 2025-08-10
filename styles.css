@@ -218,3 +218,6 @@ body, main {
     letter-spacing: 0px;
     line-height: 150%;
 }
+.recipe-instructions .item {
+    color: var(--stone-600);
+}
