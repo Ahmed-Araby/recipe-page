@@ -85,8 +85,7 @@
     margin: 0;
 }
 
-body, main {
-    height: 100vh;
+body {
     background-color: var(--stone-100);
 }
 
@@ -257,4 +256,18 @@ body, main {
 }
 .nutrition-facts > .fact > span {
     color: var(--brown-800);
+}
+
+
+/* tablet viewport breakpoint : 768px */
+@media (min-width: 48rem) { 
+    main {
+        padding: var( --spacing-1600) var(--spacing-600) var(--spacing-1600) var(--spacing-600);
+    }
+    .recipe-page {
+        background-color: var(--white);
+        gap: var(--spacing-500);
+        padding: var(--spacing-500);
+        border-radius: var(--spacing-300);
+    }
 }
