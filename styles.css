@@ -142,13 +142,15 @@ main {
 }
 .prep-time-list {
     list-style-position: inside;
-    gap: var(--spacing-100);
 }
 .prep-time-item {
     display: flex;
     gap: var(--spacing-200);
     align-items: center;
     color: var(--stone-600);
+}
+.prep-time-item:not(:last-of-type) {
+    margin-bottom: var(--spacing-100); /* 8px */
 }
 .prep-time-item::before {
     content: "•";
