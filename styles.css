@@ -227,7 +227,7 @@ main {
     letter-spacing: 0px;
     line-height: 150%;
 }
-.recipe-instructions .item {
+.instruction {
     color: var(--stone-600);
 }
 
