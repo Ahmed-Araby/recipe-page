@@ -1,4 +1,4 @@
-# Social links profile
+# Recipe Page
 
 This is my solution for the [Recipe Page challenge on Frontend Mentor]((https://www.frontendmentor.io/challenges/recipe-page-KiTsR8QQKm)).
 
