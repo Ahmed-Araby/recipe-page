@@ -140,7 +140,7 @@ main {
 .recipe-prep-time > .title {
     color: var(--rose-800);
 }
-.recipe-prep-time ul {
+.prep-time-list {
     list-style-position: inside;
     gap: var(--spacing-100);
 }
@@ -157,7 +157,7 @@ main {
     margin-left: var(--spacing-100);
 
 }
-.recipe-prep-time .item {
+.prep-time-item {
     color: var(--stone-600);
 }
 
