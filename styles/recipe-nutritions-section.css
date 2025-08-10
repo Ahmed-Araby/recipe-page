@@ -1,0 +1,28 @@
+
+.recipe-nutrition {
+    gap: var(--spacing-300);
+}
+.recipe-nutrition > .title {
+    color: var(--brown-800);
+}
+.recipe-nutrition > .description {
+    color: var(--stone-600);
+}
+.nutrition-facts {
+    gap: var(--spacing-150);
+}
+.nutrition-facts > .fact {
+    display: flex;
+    gap: var(--spacing-200);
+
+    padding: 0 var(--spacing-400) 0 var(--spacing-400);
+}
+.fact-category, .fact-value  {
+    flex: 1 1 50%;
+}
+.fact-category {
+    color: var(--stone-600);
+}
+.fact-value {
+    color: var(--brown-800);
+}

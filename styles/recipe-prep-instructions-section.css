@@ -1,0 +1,38 @@
+.recipe-instructions {
+    gap: var(--spacing-300);
+}
+
+.recipe-instructions > .title {
+    color: var(--brown-800);
+}
+.instructions-list {
+    counter-reset: index 0;
+}
+.instruction {
+    display: flex;
+    gap: var(--spacing-200);
+    align-items: start;
+
+    padding-left: var(--spacing-100); /* 8px */
+
+    color: var(--stone-600);
+
+    counter-increment: index 1;
+}
+.instruction:not(:last-of-type) {
+    margin-bottom: var(--spacing-100); /* 8px */
+}
+.instruction::before {
+    content:counter(index) ".";
+
+    flex: 0 0 1rem; /* 16px */
+
+    color: var(--brown-800);
+
+    /* text-preset-4-bold */
+    font-family: Outfit, serif;
+    font-weight: 700;
+    font-size: 1rem; /* 16px */
+    letter-spacing: 0px;
+    line-height: 150%;
+}
