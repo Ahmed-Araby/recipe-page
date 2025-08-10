@@ -252,13 +252,13 @@ main {
 
     padding: 0 var(--spacing-400) 0 var(--spacing-400);
 }
-.nutrition-facts > .fact > * {
+.fact-category, .fact-value  {
     flex: 1 1 50%;
 }
-.nutrition-facts > .fact > b {
+.fact-category {
     color: var(--stone-600);
 }
-.nutrition-facts > .fact > span {
+.fact-value {
     color: var(--brown-800);
 }
 
