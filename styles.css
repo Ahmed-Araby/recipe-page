@@ -168,15 +168,15 @@ main {
 .recipe-ingredients > .title {
     color: var(--brown-800);
 }
-.recipe-ingredients ul {
-    gap: var(--spacing-100);
-}
-.recipe-ingredients li {
+.ingredient {
     display: flex;
     gap: var(--spacing-200);
     color: var(--stone-600);
 }
-.recipe-ingredients li::before {
+.ingredient:not(:last-of-type) {
+    margin-bottom: var(--spacing-100); /* 8px */
+}
+.ingredient::before {
     content: "•";
     flex-basis: 1rem; /* 16px */
     flex-shrink: 0;
@@ -184,10 +184,6 @@ main {
     margin-left: var(--spacing-100);
     font-family: initial;
 }
-.recipe-ingredients .item {
-    color: var(--stone-600);
-}
-
 
 
 /* recipe instructions */
