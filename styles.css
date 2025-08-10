@@ -200,7 +200,6 @@ main {
     color: var(--brown-800);
 }
 .instructions-list {
-    gap: var(--spacing-100);
     counter-reset: index 0;
 }
 .instruction {
@@ -213,6 +212,9 @@ main {
     color: var(--stone-600);
 
     counter-increment: index 1;
+}
+.instruction:not(:last-of-type) {
+    margin-bottom: var(--spacing-100); /* 8px */
 }
 .instruction::before {
     content:counter(index) ".";
