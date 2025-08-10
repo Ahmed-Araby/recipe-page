@@ -190,3 +190,31 @@ body, main {
 .recipe-instructions > .title {
     color: var(--brown-800);
 }
+.recipe-instructions > ol {
+    gap: var(--spacing-100);
+    counter-reset: index 0;
+}
+
+.recipe-instructions li {
+    display: flex;
+    gap: var(--spacing-200);
+    align-items: start;
+
+    padding-left: var(--spacing-100); /* 8px */
+
+    counter-increment: index 1;
+}
+.recipe-instructions li::before {
+    content:counter(index) ".";
+
+    flex: 1 0 1rem; /* 16px */
+
+    color: var(--brown-800);
+
+    /* text-preset-4-bold */
+    font-family: Outfit, serif;
+    font-weight: 700;
+    font-size: 1rem; /* 16px */
+    letter-spacing: 0px;
+    line-height: 150%;
+}
