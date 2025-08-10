@@ -273,4 +273,11 @@ body {
         margin: 0 1.75rem 0 1.75rem; 
         border-radius: var(--spacing-300);
     }
+    .meal-img {
+        border-radius: var(--spacing-150);
+        height: 18.75rem; /* 300px */
+    }
+    .recipe {
+        padding: 0;
+    }
 }
