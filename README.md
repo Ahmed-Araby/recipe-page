@@ -55,3 +55,9 @@ The Recipe Page challenge is about creating a response page that fill the screen
 - the list item element has display property set to list-item and any element with display property set to list-item will get a marker pseudo element by default.
 - the marker pseudo element vanish when display property of the list item is changed for example when set to flex.
 - when a child element overflow from its container element the padding-bottom won't have visual effect.
+- the following url specified within the css file is relative to the css file
+  ``` @font-face {
+    font-family: "Young Serif";
+    src: url("./assets/fonts/young-serif/YoungSerif-Regular.ttf");
+  }
+  ```
