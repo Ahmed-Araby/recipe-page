@@ -123,6 +123,7 @@ main {
 
 .h-line {
     background-color: var(--stone-150);
+    border: none;
     height: 0.0625rem; /* 1px */
 
 }
